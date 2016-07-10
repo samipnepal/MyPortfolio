@@ -6,21 +6,31 @@ body {
 
 }
 
-.yadabContainer {}
+.yadabProfileImage{
+	position: absolute;
+	left: 43%;
+	top: 5%;
+}
+.yadabProfileImage img{
+  width: 200px;
+  height: 200px; 
+}
+
 
 .yadabTitle {
 	-webkit-animation-name: title;
     -webkit-animation-duration: 1s; 
 	position: absolute;
 	left: 30%;
-	top: 30%;
+	top: 40%;
 	right: 30%;
 	bottom: 30%;
+	text-align: center;
 }
 
 @-webkit-keyframes title {
     from {top: 0;}
-    to {top: 30%;}
+    to {top: 40%;}
 }
 
 .yadabMenuIcon img{
@@ -31,11 +41,6 @@ body {
 	position: absolute;
 	top: 20%;
 	left: 5%;
-}
-
-@-webkit-keyframes title {
-    from {top: 0;}
-    to {top: 30%;}
 }
 
 .yadabSocialIcons .facebook{
