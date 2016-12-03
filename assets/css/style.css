@@ -1,117 +1,68 @@
-body {
-	margin: 0;
-	padding: 0;
-	background-image: url(../images/yadabBackground.jpg);
-	background-repeat: no-repeat;
-
+body{
+    background-color: #f0f0f0;
+}
+.navbar-brand {
+    padding: 0px;
 }
 
-.yadabProfileImage{
-	position: absolute;
-	left: 43%;
-	top: 5%;
-}
-.yadabProfileImage img{
-  width: 200px;
-  height: 200px; 
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
 
-
-.yadabTitle {
-	-webkit-animation-name: title;
-    -webkit-animation-duration: 1s; 
-	position: absolute;
-	left: 30%;
-	top: 40%;
-	right: 30%;
-	bottom: 30%;
-	text-align: center;
+#main,#aboutMe,#skills,#section4  {
+    padding: 50px 0 50px 0;
+    height: 100vh;
+    color: #fff;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: firebrick;
+    font-family: Consolas;
+    border-bottom: 1px solid #838383;
+}
+#main img{
+    display: inline;
+}
+#main .title{
+    font-size: 8vw;
 }
 
-@-webkit-keyframes title {
-    from {top: 0;}
-    to {top: 40%;}
+#main .desc{
+    font-size: 3.5vw;
 }
 
-.yadabMenuIcon img{
-	-webkit-animation-name: menuIcon;
-    -webkit-animation-duration: 2s; 
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	top: 20%;
-	left: 5%;
+#aboutMe .title{
+    font-size: 6vw;
+}
+#aboutMe .desc{
+    font-size: 2.5vw;
 }
 
-.yadabSocialIcons .facebook{
-	-webkit-animation-name: fbIcon;
-    -webkit-animation-duration: 0.5s; 
-	position: absolute;
-	top: 5%;
-	right: 20%
+/*#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673ab7;
 }
 
-@-webkit-keyframes fbIcon {
-    from {right: 0;}
-    to {right: 20%;}
-}
-.yadabSocialIcons .twitter{
-	-webkit-animation-name: twitterIcon;
-    -webkit-animation-duration: 1s; 
-	position: absolute;
-	top: 5%;
-	right: 15%
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ff9800;
 }
 
-@-webkit-keyframes twitterIcon {
-    from {right: 0;}
-    to {right: 15%;}
+#section41 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #00bcd4;
 }
 
-.yadabSocialIcons .linkedin{
-	-webkit-animation-name: linkedinIcon;
-    -webkit-animation-duration: 1.5s; 
-	position: absolute;
-	top: 5%;
-	right: 10%
-}
-
-@-webkit-keyframes linkedinIcon {
-    from {right: 0;}
-    to {right: 10%;}
-}
-
-.yadabSocialIcons .skype{
-	-webkit-animation-name: skypeIcon;
-    -webkit-animation-duration: 2s; 
-	position: absolute;
-	top: 5%;
-	right: 5%
-}
-
-@-webkit-keyframes skypeIcon {
-    from {right: 0;}
-    to {right: 5%;}
-}
-
-@-webkit-keyframes menuIcon {
-    from {left: 0;}
-    to {left: 5%;}
-}
-.yadabTitle span{
-	text-align: center;
-	display: block;
-}
-
-
-.yadabTitle .top,.bottom{
-	list-style:square;
-	font-family: cursive;
-	font-size: 36px;
-	color: aliceblue;
-}
-.yadabTitle .center{
-	font-family: cursive;
-	font-size: 72px;
-	color: aliceblue;
-}
+#section42 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #009688;
+}*/
