@@ -11,7 +11,7 @@ body{
     width: auto;
 }
 
-#main,#aboutMe,#experience,#skills,#section4  {
+#main,#aboutMe,#experience,#skills,#education,#projects,#contact  {
     padding: 50px 0 50px 0;
     height: 100vh;
     color: #fff;
@@ -84,4 +84,145 @@ hr.experience:after {
 .glyphicon-plus{
     color: black;
     margin-left: 10px;
+}
+#education .title{
+    font-size: 6vw;
+}
+#education .degree{
+    font-size: 4vw;
+}
+#education .university,.date{
+    font-size: 3vw;
+}
+#skills{
+    overflow: hidden;
+    text-align: center;
+}
+#skills .skillbox{
+    height: 450px;
+    overflow: scroll;
+    width: 70%;
+    margin: auto;
+    background-color: black;
+}
+#skills .topbar{
+    width: 100%;
+    background-color: dimgray;
+    height: 10%;
+     -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+    box-shadow: inset 0 -10px 10px -10px #000000;
+
+}
+#skills .topbar a{
+    height: auto;
+    float: right;
+    margin: 1%;
+    font-size: 2vw;
+    padding: 0px 5px 3px 5px;
+    color: white;
+}
+#skills .topbar span:hover{
+    background-color: gray;
+}
+#skills .title{
+    font-size: 6vw;
+}
+#skills .left{
+    width: 40%;
+    text-align: right;
+    padding: 20px;
+    float: left;
+    font-size: 2vw;
+    color: darkviolet;
+    flex: 1;
+    
+}
+#skills .right{
+    width: 60%;
+    text-align: left;
+    float: right;
+    padding: 20px;
+    font-size: 2vw;
+    color: white;
+}
+#skills .right #myskills{
+    color: darkorange;
+   padding-left: 40px;
+}
+
+#projects{
+    height: auto;
+}
+#projects .title{
+    font-size: 6vw;
+}
+#projects .left{
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+
+}
+#projects .left .url{
+    font-size: 2vw;
+
+}
+#projects .left .url a:hover{
+    text-decoration: none;
+
+}
+#projects .left .fa{
+    color: black;
+
+}
+#projects .right{
+    width: 70%;
+    float: right;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 2vw;
+}
+#projects .left .title{
+    font-size: 4vw;
+}
+#projects .left .subTitle{
+    font-size: 3vw;
+}
+#contact .title{
+    font-size: 6vw;
+}
+#contact #icons{
+    margin: auto;
+    font-size: 6vw;
+}
+#contact #icons .fa{
+    font-size: 10vw;
+    margin: 5% 5% 0 0;
+    color: black;
+}
+#contact #icons .fa:hover{
+    color: cornflowerblue;
+}
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }

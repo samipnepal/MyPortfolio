@@ -29,16 +29,21 @@
 
     <meta name="theme-color" content="#000000">
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="assets/images/Y.ico">
 
     <title>Yadab Nepal - Full Stack Web Developer</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
-
+   <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -62,7 +67,10 @@
                     <li class="active"><a href="#main">Home</a></li>
                     <li><a href="#aboutMe">About</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -79,14 +87,14 @@
         </div>
     </div>
     <div id="aboutMe" class="container-fluid">
-        <div class="title">About Me <span class="glyphicon glyphicon-user"></span></div>
+        <div class="title" data-aos="fade-down">About Me <span class="glyphicon glyphicon-user"></span></div>
         
-        <div class="desc"><p>Front end and back end developer who focused on writing clean elegant and efficient code. Love Javascript(AngularJs, NodeJs, BackboneJs), Java J2EE and touch of Django(Python).
+        <div class="desc"  data-aos="fade-up"><p>Front end and back end developer who focused on writing clean elegant and efficient code. Love Javascript(AngularJs, NodeJs, BackboneJs), Java J2EE and touch of Django(Python).
 </p><p>Ability to take challenges and independently contribute towards project completion at any layer of project execution. Involved and participated in several corporate technical and soft skill training programs.
 	Good communication skills and well versed with gathering client requirements.</p></div>
     </div>
     <div id="experience" class="container-fluid">
-        <div class="title">Experience <span class="glyphicon glyphicon-briefcase"></span></div>
+        <div class="title" data-aos="fade-down">Experience <span class="glyphicon glyphicon-briefcase"></span></div>
        <div class="left" data-aos="fade-left"><div class="title">Developer-L1</div>
         <div class="subTitle">Wipro</div>
         <div class="subTitle">Jul 15 – Present</div>
@@ -105,7 +113,7 @@
         <div class="subTitle">Mosaic Adventure</div>
         <div class="subTitle">Feb 10 – Feb 12</div>
         </div>
-        <div class="right" data-aos="fade-left">I was is responsible for implementing SEO and social media strategies. <br>
+        <div class="right" data-aos="fade-left">I was responsible for implementing SEO and social media strategies. <br>
              <div data-aos="fade-left" data-aos-offset="100"><span class="glyphicon glyphicon-plus"> </span> Understand and support initiatives that will contribute to the goals and success of company campaigns. <br></div>
             <div data-aos="fade-left" data-aos-offset="120"><span class="glyphicon glyphicon-plus"> </span> Perform keyword research in coordination with company business objectives to optimize existing content and uncover new opportunities.<br></div>
             <div data-aos="fade-left" data-aos-offset="140"><span class="glyphicon glyphicon-plus"> </span> Provide SEO analysis and recommendations in coordination with elements and structure of websites and web pages.<br></div>
@@ -121,20 +129,134 @@
                  <div data-aos="fade-left" data-aos-offset="340"><span class="glyphicon glyphicon-plus"> </span> Communication to team and management on project development, timelines, and results<br></div>
                 <div data-aos="fade-left" data-aos-offset="360"><span class="glyphicon glyphicon-plus"> </span>  Work closely with the other members to meet company goals</div>
 </div>
+        <div class="clear"></div>
         
         
     </div>
+    <div id="education" class="container-fluid">
+        <div class="title">Education <span class="glyphicon glyphicon-education"></span></div>
+        <div class="degree">Bachelor in Computer Application (BCA)</div>
+        <div class="university">Krupanidhi Degree College</div>
+        <div class="university">Affiliate to Bangalore University</div>
+        <div class="university"><span class="glyphicon glyphicon-map-marker"> Bangalore, Karnataka, India</span></div>
+        <div class="date">July 2012 - June 2015</div>
+    </div>
+    
     <div id="skills" class="container-fluid">
-        <div class="title">Education</div>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div class="title">Skills <span class="glyphicon glyphicon-list-alt"> </span></div>
+        <div class="skillbox">
+            <div class="topbar">
+                <a  data-toggle="tooltip" title="Please! Don't Close Me."><span class="glyphicon glyphicon-remove"></span></a>
+                <a data-toggle="tooltip" title="I don't want to grow"><span class="glyphicon glyphicon-fullscreen"></span></a>
+                <a data-toggle="tooltip" title="I won't hide for you"><span class="glyphicon glyphicon-minus"></span></a>
+            </div>
+        <div class="left"> Experienced :</div>
+        <div class="right">[
+            <div id="myskills">"Java",</div>
+            <div id="myskills">"Javascript",</div>
+            <div id="myskills">"LESS",</div>
+            <div id="myskills">"HTML5",</div>
+            <div id="myskills">"Agile Methodologies",</div>
+            <div id="myskills">"Scrum",</div>
+            <div id="myskills">"Git",</div>
+            <div id="myskills">"SEO"</div>
+            ];</div>
+        <div class="clear"></div>
+        <div class="left"> Advanced :</div>
+        <div class="right">[
+            <div id="myskills">"AngularJs",</div>
+            <div id="myskills">"CSS 3",</div>
+            <div id="myskills">"Oracle",</div>
+            <div id="myskills">"HTML5",</div>
+            <div id="myskills">"Bootstrap"</div>
+            ];</div>
+        <div class="clear"></div>
+         <div class="left"> Beginner :</div>
+        <div class="right">[
+            <div id="myskills">"ReactJs",</div>
+            <div id="myskills">"Python Django",</div>
+            <div id="myskills">"NodeJs",</div>
+            <div id="myskills">"BackboneJs",</div>
+            <div id="myskills">"Hibernate",</div>
+            <div id="myskills">"Spring",</div>
+            <div id="myskills">"PHP",</div>
+            <div id="myskills">"Servlet",</div>
+            <div id="myskills">"C++"</div>
+            ];</div>
+        <div class="clear"></div>
+            </div>
     </div>
     
     
+    <div id="projects" class="container-fluid">
+        <div class="title">Personal Projects <span class="glyphicon glyphicon-hdd"></span></div>
+        <div class="left" data-aos="fade-left"><div class="title">Apple Store</div>
+        <div class="subTitle">Python Django</div>
+        <div class="subTitle">University</div>
+        <div class="subTitle">Final Semester</div>
+            <div class="url"><a href="https://github.com/samipnepal/Apple-Store" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> Source Code</a></div>
+        </div>
+        <div class="right" data-aos="fade-right">
+            I was responisble to Design and implement features <br>
+            <div data-aos="fade-left" data-aos-offset="100"> <span class="glyphicon glyphicon-plus"></span> Work in Agile environment.<br></div>
+            <div data-aos="fade-left" data-aos-offset="120"><span class="glyphicon glyphicon-plus"></span> Solve complex innovation problems for the world’s leading brand. <br></div>
+            <div data-aos="fade-left" data-aos-offset="140"><span class="glyphicon glyphicon-plus"></span> Own the development products and features.<br></div>
+            <div data-aos="fade-left" data-aos-offset="160"><span class="glyphicon glyphicon-plus"></span> Work in all layers of the web stack, including HTML, LESS, JavaScript and JAVA<br></div>
+            <div data-aos="fade-left" data-aos-offset="180"><span class="glyphicon glyphicon-plus"></span> Collaborate with other skilled designers on the team to help solve complex design problems<br></div>
+        </div>
+        <div class="clear"></div>
+        <hr class="experience">
+        <div class="left" data-aos="fade-left"><div class="title">E Voting System</div>
+        <div class="subTitle">Java J2EE</div>
+        <div class="subTitle">Wipro</div>
+        <div class="subTitle">Training</div>
+        <div class="url"><a href="https://github.com/samipnepal/ElectronicVotingSystem" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> Source Code</a></div>
+        </div>
+        <div class="right" data-aos="fade-right">
+            I was responisble to Design and implement features <br>
+            <div data-aos="fade-left" data-aos-offset="100"> <span class="glyphicon glyphicon-plus"></span> Work in Agile environment.<br></div>
+            <div data-aos="fade-left" data-aos-offset="120"><span class="glyphicon glyphicon-plus"></span> Solve complex innovation problems for the world’s leading brand. <br></div>
+            <div data-aos="fade-left" data-aos-offset="140"><span class="glyphicon glyphicon-plus"></span> Own the development products and features.<br></div>
+            <div data-aos="fade-left" data-aos-offset="160"><span class="glyphicon glyphicon-plus"></span> Work in all layers of the web stack, including HTML, LESS, JavaScript and JAVA<br></div>
+            <div data-aos="fade-left" data-aos-offset="180"><span class="glyphicon glyphicon-plus"></span> Collaborate with other skilled designers on the team to help solve complex design problems<br></div>
+        </div>
+        <div class="clear"></div>
+        <hr class="experience">
+        
+        <div class="left" data-aos="fade-left"><div class="title">Nodes Generator</div>
+        <div class="subTitle">Javascript</div>
+            <div class="url"><a href="https://github.com/samipnepal/nodesGenerator" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> Source Code</a></div>
+        </div>
+        <div class="right" data-aos="fade-right">
+            I was responisble to Design and implement features <br>
+            <div data-aos="fade-left" data-aos-offset="100"> <span class="glyphicon glyphicon-plus"></span> Work in Agile environment.<br></div>
+            <div data-aos="fade-left" data-aos-offset="120"><span class="glyphicon glyphicon-plus"></span> Solve complex innovation problems for the world’s leading brand. <br></div>
+            <div data-aos="fade-left" data-aos-offset="140"><span class="glyphicon glyphicon-plus"></span> Own the development products and features.<br></div>
+            <div data-aos="fade-left" data-aos-offset="160"><span class="glyphicon glyphicon-plus"></span> Work in all layers of the web stack, including HTML, LESS, JavaScript and JAVA<br></div>
+            <div data-aos="fade-left" data-aos-offset="180"><span class="glyphicon glyphicon-plus"></span> Collaborate with other skilled designers on the team to help solve complex design problems<br></div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+    
+    
+    
+    
+    <div id="contact" class="container-fluid">
+        <div class="title">Contact <i class="fa fa-address-card" aria-hidden="true"></i></div>
+        <div id="icons">
+            <a href="http://www.fb.com/samipnepal"><i class="fa fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com/samipnepal"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="http://www.linkedin.com/in/samipnepal"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="mailto:samipnepal@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            
+        </div>
+
+    </div>
     
     <div id="footer">
   <div class="container">
-    <p class="text-muted">This Bootstrap Example courtesy <a href="http://www.bootply.com">Bootply.com</a></p>
+    <p class="text-muted">Copyright &copy; <a href="http://www.yadabn.com.np">yadabn.com.np</a></p>
   </div>
     
     
