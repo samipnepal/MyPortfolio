@@ -11,7 +11,7 @@ body{
     width: auto;
 }
 
-#main,#aboutMe,#experience,#skills,#education,#projects,#contact  {
+#main,#aboutMe,#experience,#skills,#education,#projects,#contact,#certifications, #awards  {
     padding: 50px 0 50px 0;
     height: 100vh;
     color: #fff;
@@ -164,15 +164,15 @@ hr.experience:after {
     padding-right: 30px;
 
 }
-#projects .left .url{
+#projects .right .url{
     font-size: 2vw;
 
 }
-#projects .left .url a:hover{
+#projects .right .url a:hover{
     text-decoration: none;
 
 }
-#projects .left .fa{
+#projects .right .fa{
     color: black;
 
 }
@@ -203,6 +203,24 @@ hr.experience:after {
 }
 #contact #icons .fa:hover{
     color: cornflowerblue;
+}
+#certifications {
+    font-size: 3vw;
+    height: auto;
+}
+#certifications .title{
+    font-size: 6vw;
+}
+#certifications .certificate{
+    font-size: 4vw;
+    margin-top: 5%;
+}
+#awards .title{
+    font-size: 6vw;
+}
+#awards .awardList{
+    font-size: 3vw;
+    margin-top: 5%;
 }
 blockquote {
   margin: 1.5em 10px;
