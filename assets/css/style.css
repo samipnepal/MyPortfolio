@@ -29,10 +29,13 @@ body{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.navbar{
+    max-width: 100vw;
+}
 
 #main,#aboutMe,#experience,#skills,#education,#projects,#contact,#certifications, #awards  {
-    padding: 50px 0 50px 0;
-    height: 100vh;
+    padding: 50px 0px 50px 0px;
+    min-height: 100%;
     color: #fff;
     background-color: #f0f0f0;
     text-align: center;
@@ -42,15 +45,20 @@ body{
 }
 #main img{
     display: inline;
+    max-width: 100vw;
 }
 #main .mytitle{
     font-size: 8vw;
-   font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+   font: 400 10vw/1.3 'Berkshire Swash', Helvetica, sans-serif;
   text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
 }
 
 #main .desc{
     font-size: 3.5vw;
+}
+#main .desc img{
+    max-height: 15vw;
+    max-width: 10vw;
 }
 
 #aboutMe .title{
@@ -209,6 +217,9 @@ hr.experience:after {
 }
 #projects .left .subTitle{
     font-size: 3vw;
+}
+#contact{
+    min-height: 70vw;
 }
 #contact .title{
     font-size: 6vw;
