@@ -10,6 +10,25 @@ body{
     padding: 15px;
     width: auto;
 }
+.navbar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 #main,#aboutMe,#experience,#skills,#education,#projects,#contact,#certifications, #awards  {
     padding: 50px 0 50px 0;
@@ -24,8 +43,10 @@ body{
 #main img{
     display: inline;
 }
-#main .title{
+#main .mytitle{
     font-size: 8vw;
+   font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
 }
 
 #main .desc{
@@ -227,7 +248,26 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+.title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
 
+.title:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 blockquote:before {
   color: #ccc;
   content: open-quote;
